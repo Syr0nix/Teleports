@@ -1,0 +1,6 @@
+local args = {
+		[1] = "Spawn",
+		[2] = "Volcano"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
